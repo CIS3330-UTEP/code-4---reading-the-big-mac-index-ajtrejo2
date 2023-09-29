@@ -31,7 +31,7 @@ def get_the_cheapest_big_mac_price_by_year(year):
     iso_a3 = row['iso_a3']
     # rows = year_query.loc[index_of_min_value]
     name = row['name']
-    cheap_with_name = f"The output for {year} will be: {name}({iso_a3}): ${cheapest}"
+    cheap_with_name = f"the output for {year} will be: {name}({iso_a3}): ${cheapest}"
 
     return cheap_with_name
     
@@ -45,7 +45,7 @@ def get_the_most_expensive_big_mac_price_by_year(year):
     iso_a3 = row['iso_a3']
     # rows = year_query.loc[index_of_min_value]
     name = row['name']
-    most_with_name = f"The output for {year} will be: {name}({iso_a3}): ${expensive}"
+    most_with_name = f"the output for {year} will be: {name}({iso_a3}): ${expensive}"
     return most_with_name
 
 if __name__ == "__main__":
